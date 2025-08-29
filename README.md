@@ -1,4 +1,4 @@
-public class BinarySearchExample {
+ class BinarySearchExample {
     // Binary Search method
     public static int binarySearch(int[] arr, int target) {
         int left = 0;
