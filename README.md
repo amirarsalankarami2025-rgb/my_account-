@@ -1,4 +1,4 @@
-import java.util.Random;
+import ;
 import java.util.Scanner;
 
 public class GuessTheNumber {
