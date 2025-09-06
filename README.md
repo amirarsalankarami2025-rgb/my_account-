@@ -1,32 +1,30 @@
-import ;java.util.Random
-import java.util.Scanne;
+class Car {
+    // Fields (attributes)
+    String brand;
+    String color;
+    int year;
 
-public class GuessTheNumber {
+    // Constructor
+    Car(String brand, String color, int year) {
+        this.brand = brand;
+        this.color = color;
+        this.year = year;
+    }
+
+    // Method
+    void drive() {
+        System.out.println("The " + color + " " + brand + " from " + year + " is driving!");
+    }
+}
+
+public class CarDemo {
     public static void main(String[] args) {
-        Random random = new Random();
-      Scanner   scanner = new Scanner(System.in);
+        // Create objects
+        Car car1 = new Car("Toyota", "Red", 2020);
+        Car car2 = new Car("BMW", "Black", 2022);
 
-        int numberToGuess = random.nextInt(100) + 1; // Random number between 1 and 100
-        int guess = 0;
-        int attempts = 0;
-
-        System.out.println("Welcome to the Number Guessing Game!");
-        System.out.println("I have chosen a number between 1 and 100. Try to guess it!");
-
-        while (guess != numberToGuess) {
-            System.out.print("Enter your guess: ");
-            guess = scanner.nextInt();
-            attempts++;
-
-            if (guess < numberToGuess) {
-                System.out.println("Too low! Try again.");
-            } else if (guess > numberToGuess) {
-                System.out.println("Too high! Try again.");
-            } else {
-                System.out.println("Congratulations! You guessed the number in " + attempts + " attempts.");
-            }
-        }
-
-        scanner.close();
+        // Call methods
+        car1.drive();
+        car2.drive();
     }
 }
