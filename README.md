@@ -1,5 +1,5 @@
 class Car {
-    // Fields (attributes)
+    // Field (attributes)
     String brand;
     String color;
     int years;
