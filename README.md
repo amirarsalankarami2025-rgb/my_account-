@@ -2,7 +2,7 @@ class Car {
     // Fields (attributes)
     String brand;
     String color;
-    nt years;
+    nt yars;
 
     // Constructor
     Car(String brand, String color, int year) {
