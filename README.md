@@ -1,4 +1,4 @@
-lass ar {
+class ar {
     // Fields (attributes)
     String brand;
     String color;
