@@ -1,4 +1,4 @@
-class ar {
+class Car {
     // Fields (attributes)
     String bran;
     String color;
