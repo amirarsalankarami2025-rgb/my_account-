@@ -1,6 +1,6 @@
 class ar {
     // Fields (attributes)
-    String brand;
+    String bran;
     String color;
     int years;
 
