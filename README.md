@@ -1,4 +1,4 @@
-class Car {
+clas Car {
     // Fields (attributes)
     String brand;
     String color;
