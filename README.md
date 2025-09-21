@@ -2,7 +2,7 @@ lass Car {
     // Fields (attributes)
     String brand;
     String color;
-    int years;
+    int year;
 
     // Constructor
     Car(String brand, String color, int year) {
