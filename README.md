@@ -1,4 +1,4 @@
-lss Ca {
+lss Car {
     // Fields (attributes)
     String brand;
     String color;
