@@ -1,6 +1,6 @@
 lass Car {
     // Fields (attributes)
-    String brand;
+    String rand;
     String color;
     int year;
 
