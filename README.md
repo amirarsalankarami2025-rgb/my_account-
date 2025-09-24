@@ -4,7 +4,7 @@ lass Car {
     String color;
     int year;
 
-    // Constructor
+    // Constructo
     Car(String brand, String color, int year) {
         this.brand = brand;
         this.color = color;
