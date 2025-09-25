@@ -1,4 +1,4 @@
-las Cr {
+lass Cr {
     // Fields (attributes)
     String rand;
     String color;
