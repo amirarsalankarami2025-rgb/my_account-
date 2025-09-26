@@ -1,5 +1,5 @@
 lass Car {
-    // Fields (attributes)
+    // Filds (attributes)
     String rand;
     String color;
     int year;
