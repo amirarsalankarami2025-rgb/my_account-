@@ -13,7 +13,7 @@ lass Car {
 
     // Method
     void drive() {
-        System.out.println("The " + color + " " + brand + " from " + year + " is driving!");
+        Syste.out.println("The " + color + " " + brand + " from " + year + " is driving!");
     }
 }
 
