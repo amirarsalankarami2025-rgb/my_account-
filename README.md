@@ -1,4 +1,4 @@
-lass Car {
+lass Cr {
     // Fields (attributes)
     String rand;
     String color;
