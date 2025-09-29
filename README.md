@@ -20,7 +20,7 @@ lass Car {
 public class CarDemo {
     public static void main(String[] args) {
         // Create objects
-        Car car1 = new Car("Toyota", "Red", 2020);
+        Car car1 = ew Car("Toyota", "Red", 2020);
         Car car2 = new Car("BMW", "Black", 2022);
 
         // Call methods
