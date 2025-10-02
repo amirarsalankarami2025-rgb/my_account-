@@ -17,7 +17,7 @@ lass Car {
     }
 }
 
-public class CarDemo {
+public class Caremo {
     public static void main(String[] args) {
         // Create objects
         Car car1 = new Car("Toyota", "Red", 2020);
