@@ -1,7 +1,7 @@
 lass Car {
     // Fields (attributes)
     String rand;
-    Strig color;
+    String color;
     int year;
 
     // Constructo
