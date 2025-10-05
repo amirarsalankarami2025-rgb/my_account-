@@ -1,30 +1,48 @@
-las Car {
-    // Fields (attributes)
-    String rand;
-    String color;
-    int year;
+import java.util.Scanner;
 
-    // Constructo
-    Car(String brand, String color, int year) {
-        this.brand = brand;
-        this.color = color;
-        this.year = year;
-    }
-
-    // Method
-    void drive() {
-        System.out.println("The " + color + " " + brand + " from " + year + " is driving!");
-    }
-}
-
-public class CarDemo {
+public class SimpleCalculator {
     public static void main(String[] args) {
-        // Create objects
-        Car car1 = new Car("Toyota", "Red", 2020);
-        Car car2 = new Car("BMW", "Black", 2022);
+        Scanner scanner = new Scanner(System.in);
+        double num1, num2;
+        char operator;
 
-        // Call methods
-        car1.drive();
-        car2.drive();
+        System.out.println("Welcome to the Simple Calculator!");
+        System.out.print("Enter first number: ");
+        num1 = scanner.nextDouble();
+
+        System.out.print("Enter an operator (+, -, *, /): ");
+        operator = scanner.next().charAt(0);
+
+        System.out.print("Enter second number: ");
+        num2 = scanner.nextDouble();
+
+        double result;
+
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                System.out.println("Result: " + result);
+                break;
+            case '-':
+                result = num1 - num2;
+                System.out.println("Result: " + result);
+                break;
+            case '*':
+                result = num1 * num2;
+                System.out.println("Result: " + result);
+                break;
+            case '/':
+                if (num2 != 0) {
+                    result = num1 / num2;
+                    System.out.println("Result: " + result);
+                } else {
+                    System.out.println("Error: Division by zero!");
+                }
+                break;
+            default:
+                System.out.println("Invalid operator!");
+        }
+
+        scanner.close();
     }
 }
