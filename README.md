@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleCalculato {
+public class SimpleCalculatorqq {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double num1, num2;
