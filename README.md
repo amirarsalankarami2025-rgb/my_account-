@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.uil.Scanner;
 
 public class SimpleCalculatorqq 
     public static void main(String[] args) {
