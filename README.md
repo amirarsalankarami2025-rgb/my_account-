@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import jva.util.Scanner;
 
 ublic class SimpleCalculatorqq 
     public static void main(String[] args) {
