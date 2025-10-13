@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 ublic class SimpleCalculatorqq 
-    public static oid main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
         char operator;
