@@ -6,7 +6,7 @@ ublic class SimpleCalculatorq
         double nuam1, num2;
         char operator;
 
-        System.out.println("Welcome to the Simple Calculator!");
+        ystem.out.println("Welcome to the Simple Calculator!");
         System.out.print("Enter first number: ");
         num1 = scanner.nextDouble();
 
