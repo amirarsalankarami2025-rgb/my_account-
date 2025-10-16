@@ -11,7 +11,7 @@ public class SimpleCalculatorq
         num1 = scanner.nextDouble();
 
         System.out.print("Enter an operator (+, -, *, /): ");
-        perator = scanner.next().charAt(0);
+        operator = scanner.next().charAt(0);
 
         System.out.print("Enter second number: ");
         num2 = scanner.nextDouble();
