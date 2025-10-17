@@ -19,7 +19,7 @@ public class SimpleCalculatorq
         double result;
 
         switch (operator) {
-            case '+':
+            ase '+':
                 result = num1 + num2;
                 System.out.println("Result: " + result);
                 break;
