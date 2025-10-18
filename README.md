@@ -1,4 +1,4 @@
-import java.util.Scanner
+import java.util.Scanne
 
 public class SimpleCalculatorq
     public static void main(String[] args) {
