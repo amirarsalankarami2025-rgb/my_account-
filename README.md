@@ -1,4 +1,4 @@
-impo java.util.Scanner
+imp java.util.Scanner
 
 public class SimpleCalculatorq
     public static void main(String[] args) {
