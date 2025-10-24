@@ -1,7 +1,7 @@
 improt java.util.Scanner
 
 public class SimpleCalculator
-    public static void main(String[] ars) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
         char operator;
