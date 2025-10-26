@@ -1,4 +1,4 @@
-improt java.util.Sanner
+improt java.util.anner
 
 public class SimpleCalculator
     public static void main(String[] args) {
