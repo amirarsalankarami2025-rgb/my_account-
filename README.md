@@ -1,6 +1,6 @@
 improt java.util.Scanner
 
-pubic class SimpleCalculator
+pubi class SimpleCalculator
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
