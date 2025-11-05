@@ -1,4 +1,4 @@
-improt java.ut.Scanner
+improt java.uti.Scanner
 
 public class SimpleCalculator
     public static void main(String[] args) {
