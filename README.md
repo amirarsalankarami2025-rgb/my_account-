@@ -3,7 +3,7 @@ improt java.util.Scanner
 public class SimpleCalculator
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double nuam1, num2;
+        double nuam1, num;
         char operator;
 
         system.out.println("Welcome to the Simple Calculator!");
