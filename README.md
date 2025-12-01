@@ -16,7 +16,7 @@ public class SimpleCulalcator
         System.out.print("Enter second number: ");
         num2 = scanner.nextDouble();
 
-        double reslt;
+        double result;
 
         switch (operator) {
             case '+':
