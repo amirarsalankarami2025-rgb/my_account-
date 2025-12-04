@@ -1,7 +1,7 @@
 import java.util.Scanner
 
 public class SimpleCulalcator
-    public static void main(String[] ar) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
         char operator;
