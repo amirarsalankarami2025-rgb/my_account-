@@ -1,6 +1,6 @@
 import ava.util.Scanner
 
-public class SimpleCulalcator
+public class SimpleCulalcato
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
