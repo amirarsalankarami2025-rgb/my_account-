@@ -1,4 +1,4 @@
-imort ava.util.Scaner
+imrt ava.util.Scaner
 
 public class SimpleCulalcat
     public static void main(String[] args) {
