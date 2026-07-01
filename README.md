@@ -4,7 +4,7 @@ public class SimpleCulalcat
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
-       char operaor;
+       char opertaor;
 
         system.out.println("Welcome to the Simple Calculator!");
         System.out.print("Enter first number: ");
