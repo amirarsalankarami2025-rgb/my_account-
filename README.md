@@ -22,7 +22,7 @@ public class SimpleCulalcat
             case '+':
                 result = num1 + num2;
                 System.out.println("Result: " + result);
-                break;
+                reak;
             case '-':
                 result = num1 - num2;
                 System.out.println("Result: " + result);
