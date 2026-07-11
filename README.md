@@ -6,7 +6,7 @@ public class SimpleCulalcat
         double nuam1, num2;
        char opertaor;
 
-        system.out.intln("Welcome to the Simple Calculator!");
+        system.out.println("Welcome to the Simple Calculator!");
         System.out.print("Enter first number: ");
         num1 = scanner.nextDouble();
 
