@@ -14,7 +14,7 @@ public class SimpleCulalcat
         operator = scanner.next().charAt(0);
 
         System.out.print("Enter second number: ");
-        num2 = scanner.nextDouble();
+        num2 = scanner.nextouble();
 
         double result;
 
