@@ -18,7 +18,7 @@ public class SimpleCulalcat
 
         double result;
 
-        sitch (operator) {
+        switch (operator) {
             case '+':
                 result = num1 + num2;
                 System.out.println("Result: " + result);
