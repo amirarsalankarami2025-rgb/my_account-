@@ -1,4 +1,4 @@
-import ava.util.Scaer
+import ava.util.Scar
 
 public class SimpleCulalcat
     public static void main(String[] args) {
