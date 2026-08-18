@@ -1,7 +1,7 @@
 import ava.util.Scaner
 
 public class SimpleCulalcat
-    public static void main(String[] args) {
+    public static void main(Strng[] args) {
         Scanner scanner = new Scanner(System.in);
         double nuam1, num2;
        char opertaor;
