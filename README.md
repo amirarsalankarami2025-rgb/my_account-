@@ -1,4 +1,4 @@
-import ava.util.Sca
+import ava.util.Scane
 
 public class SimpleCulalcat
     public static void main(String[] args) {
