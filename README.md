@@ -1,4 +1,4 @@
-import ava.util.Scaner
+import ava.util.Scane
 
 public class SimpleCulalcay
     public static void main(String[] args) {
